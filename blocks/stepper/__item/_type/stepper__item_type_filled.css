@@ -1,0 +1,21 @@
+.stepper__item_type_filled {
+  font-weight: 600;
+  color: #4C555B;
+  border-bottom: 1px solid #858585;
+}
+
+.stepper__item_type_filled:hover {
+  color: #EB4410;
+  border-bottom: 1px solid #EB4410;
+  cursor: pointer;
+}
+
+.stepper__item_type_filled::after {
+  border: 2px solid #D4F7E1;
+  background-color: #D4F7E1;
+  content: url('../../../../images/Vector.svg');
+}
+
+.stepper__item_type_filled::before {
+  border-left: 2px solid #D4F7E1;
+}

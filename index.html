@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="stepper test">
+    <meta name="keywords" content="html, css">
+    <meta name="author" content="Никита Галушкин">
+    <link  rel="stylesheet" href="./pages/index.css">
+    <title>Stepper</title>
+  </head>
+  <body class="root">
+    <div class="stepper">
+      <h1 class="stepper__title">Шаги в виджете</h1>
+      <ol class="stepper__container">
+        <li class="stepper__item stepper__item_type_filled">Бронирование</li>
+        <li class="stepper__item stepper__item_type_filled">Выбор способа покупки</li>
+        <li class="stepper__item stepper__item_type_active">Подготовка сделки
+          <ol class="stepper__nested-list">
+            <li class="stepper__nested-item stepper__nested-item_type_filled">Предварительный расчет</li>
+            <li class="stepper__nested-item stepper__nested-item_type_filled stepper__nested-item_type_active">Анкета и документы</li>
+            <li class="stepper__nested-item">Проверка и подпись анкеты</li>
+            <li class="stepper__nested-item">Выбор банка</li>
+            <li class="stepper__nested-item">Согласование документов с банком</li>
+            <li class="stepper__nested-item">Подготовка документов и долей</li>
+            <li class="stepper__nested-item">Открытие счета</li>
+            <li class="stepper__nested-item">Выпуск цифровой подписи</li>
+          </ol>
+        </li>
+        <li class="stepper__item">Заключение сделки</li>
+      </ol>
+    </div>
+  </body>
+</html>

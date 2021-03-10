@@ -1,0 +1,18 @@
+.stepper__item_type_active {
+  color: #000;
+  font-weight: 600;
+}
+
+.stepper__item_type_active::after {
+  border: 2px solid #5392F7;
+  background-color: #5392F7;
+  color:#fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.stepper__item_type_active::before {
+  border: 1px solid #5392F7;
+}

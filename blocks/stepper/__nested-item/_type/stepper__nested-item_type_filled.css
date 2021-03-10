@@ -1,0 +1,7 @@
+.stepper__nested-item_type_filled::before {
+  border-left: 2px solid #5392F7;
+}
+
+.stepper__nested-item_type_filled::after {
+  background: #5392F7;
+}
