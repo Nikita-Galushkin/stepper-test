@@ -1,0 +1,11 @@
+.stepper__text_type_filled {
+  font-weight: 600;
+  color: #4C555B;
+  border-bottom: 1px solid #858585;
+}
+
+.stepper__text_type_filled:hover {
+  color: #EB4410;
+  cursor: pointer;
+  border-bottom: 1px solid #EB4410;
+}

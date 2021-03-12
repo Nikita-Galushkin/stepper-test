@@ -34,10 +34,15 @@
   display: inline-block;
   content: '';
   position: absolute;
-  top: 0;
   left: 14px;
-  height: 29px;
-  border-left: 2px solid #EAECEF;
+  bottom: -2px;
+	top: -15px;
+  width: 2px;
+  background: #EAECEF;
+}
+
+.stepper__nested-item:last-child:before {
+  bottom: -30px;
 }
 
 .stepper__nested-item::after {

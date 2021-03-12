@@ -13,21 +13,96 @@
     <div class="stepper">
       <h1 class="stepper__title">Шаги в виджете</h1>
       <ol class="stepper__container">
-        <li class="stepper__item stepper__item_type_filled">Бронирование</li>
-        <li class="stepper__item stepper__item_type_filled">Выбор способа покупки</li>
-        <li class="stepper__item stepper__item_type_active">Подготовка сделки
+
+        <li class="stepper__item stepper__item_type_filled">
+          <a href="#" class="stepper__item-link">
+            <span class="stepper__text stepper__text_type_filled">Бронирование</span>
+          </a>
           <ol class="stepper__nested-list">
-            <li class="stepper__nested-item stepper__nested-item_type_filled">Предварительный расчет</li>
-            <li class="stepper__nested-item stepper__nested-item_type_filled stepper__nested-item_type_active">Анкета и документы</li>
-            <li class="stepper__nested-item">Проверка и подпись анкеты</li>
-            <li class="stepper__nested-item">Выбор банка</li>
-            <li class="stepper__nested-item">Согласование документов с банком</li>
-            <li class="stepper__nested-item">Подготовка документов и долей</li>
-            <li class="stepper__nested-item">Открытие счета</li>
-            <li class="stepper__nested-item">Выпуск цифровой подписи</li>
+            <li class="stepper__nested-item stepper__nested-item_type_complete">
+              <a href="#" class="stepper__nested-link">
+                Предварительный расчет
+              </a>
+            </li>
+            <li class="stepper__nested-item stepper__nested-item_type_complete">
+              <a href="#" class="stepper__nested-link">
+                Анкета и документы
+              </a>
+            </li>
           </ol>
         </li>
-        <li class="stepper__item">Заключение сделки</li>
+
+        <li class="stepper__item stepper__item_type_filled stepper__item_type_opened">
+          <a href="#" class="stepper__item-link">
+            <span class="stepper__text stepper__text_type_filled">Выбор способа покупки</span>
+          </a>
+          <ol class="stepper__nested-list">
+            <li class="stepper__nested-item stepper__nested-item_type_complete">
+              <a href="#" class="stepper__nested-link">
+                Предварительный расчет
+              </a>
+            </li>
+            <li class="stepper__nested-item stepper__nested-item_type_complete">
+              <a href="#" class="stepper__nested-link">
+                Анкета и документы
+              </a>
+            </li>
+          </ol>
+        </li>
+
+        <li class="stepper__item stepper__item_type_active stepper__item_type_opened">
+          <a href="#" class="stepper__item-link">
+            <span class="stepper__text stepper__text_type_active">Подготовка сделки</span>
+          </a>
+          <ol class="stepper__nested-list">
+            <li class="stepper__nested-item stepper__nested-item_type_filled">
+              <a href="#" class="stepper__nested-link">
+                Предварительный расчет
+              </a>
+            </li>
+            <li class="stepper__nested-item stepper__nested-item_type_filled stepper__nested-item_type_active">
+              <a href="#" class="stepper__nested-link">
+                Анкета и документы
+              </a>
+            </li>
+            <li class="stepper__nested-item">
+              <a href="#" class="stepper__nested-link">
+                Проверка и подпись анкеты
+              </a>
+            </li>
+            <li class="stepper__nested-item">
+              <a href="#" class="stepper__nested-link">
+                Выбор банка
+              </a>
+            </li>
+            <li class="stepper__nested-item">
+              <a href="#" class="stepper__nested-link">
+                Согласование документов с банком
+              </a>
+            </li>
+            <li class="stepper__nested-item">
+              <a href="#" class="stepper__nested-link">
+                Подготовка документов и долей
+              </a>
+            </li>
+            <li class="stepper__nested-item">
+              <a href="#" class="stepper__nested-link">
+                Открытие счета
+              </a>
+            </li>
+            <li class="stepper__nested-item">
+              <a href="#" class="stepper__nested-link">
+                Выпуск цифровой подписи
+              </a>
+            </li>
+          </ol>
+        </li>
+
+        <li class="stepper__item">
+          <a href="#" class="stepper__item-link">
+            <span class="stepper__text">Заключение сделки</span>
+          </a>
+        </li>
       </ol>
     </div>
   </body>

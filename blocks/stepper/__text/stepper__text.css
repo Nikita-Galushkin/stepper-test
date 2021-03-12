@@ -1,0 +1,16 @@
+.stepper__text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.26px;
+  color: #858585;
+  flex: none;
+  order: 0;
+  align-self: flex-start;
+  flex-grow: 0;
+  margin: 1px 0px;
+  line-height: 36px;
+  border-bottom: 1px solid #858585;
+}

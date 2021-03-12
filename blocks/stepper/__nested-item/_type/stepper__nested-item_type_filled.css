@@ -1,5 +1,8 @@
 .stepper__nested-item_type_filled::before {
-  border-left: 2px solid #5392F7;
+  background: #5392F7;
+  background: -moz-linear-gradient(top,  rgba(83,146,247,1) 0%, rgba(83,146,247,1) 80%, rgba(83,146,247,0) 100%);
+  background: -webkit-linear-gradient(top,  rgba(83,146,247,1) 0%,rgba(83,146,247,1) 80%,rgba(83,146,247,0) 100%);
+  background: linear-gradient(to bottom,  rgba(83,146,247,1) 0%,rgba(83,146,247,1) 80%,rgba(83,146,247,0) 100%);
 }
 
 .stepper__nested-item_type_filled::after {

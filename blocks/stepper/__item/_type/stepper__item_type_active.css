@@ -1,6 +1,5 @@
 .stepper__item_type_active {
-  color: #000;
-  font-weight: 600;
+  
 }
 
 .stepper__item_type_active::after {
@@ -11,6 +10,10 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 150%;
+}
+
+.stepper__item_type_active::before {
+  background: 1px solid #5392F7;
 }
 
 .stepper__item_type_active::before {
